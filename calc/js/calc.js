@@ -2,7 +2,7 @@ $(function(){
   var num1 = 0
   var num2 = 0
   var op  = "+"
-  
+  console.log("Loaded ....");
   $(':button').on('click', function(){
     var _pval = $(':text').val()
     var _btn  = this.value
