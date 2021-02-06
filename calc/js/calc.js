@@ -4,6 +4,7 @@ $(function(){
   var op  = "+"
   console.log("is loading ....");
   $(':button').on('click', function(){
+    console.log("button is clicked ....");
     var _pval = $(':text').val()
     var _btn  = this.value
     if( _btn == "C" || _btn == "AC" || _btn == "MC" ){
